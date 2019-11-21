@@ -93,6 +93,19 @@
 # print (round(4.55))
 # print (abs(-4.55 ))
 
+############################### Module section ############
+# import Modules
+#
+# lbs_value=Modules.kilogram_to_lbs(100)
+# print(lbs_value)
+
+#import directly the function and use without reference.
+import  Modules
+from Modules import kilogram_to_lbs
+
+
+print(kilogram_to_lbs(100))
+
 
 
 
